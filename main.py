@@ -1,7 +1,7 @@
 import json
 import time
 import pandas as pd
-from fetcher import fetch_domain
+from fetcher import fetch_domain, fetch_robots_txt
 from detector import load_wappalyzer, detect_technologies
 from dns_resolver import detect_dns_technologies
 
@@ -38,6 +38,20 @@ def fetch_all(domains):
     return results
 
 
+def enrich_with_robots(fetched):
+    count = 0
+    for i, (domain, data) in enumerate(fetched.items(), 1):
+        if data.get("error") or data.get("robots_txt"):
+            continue
+        robots = fetch_robots_txt(domain)
+        if robots:
+            data["robots_txt"] = robots
+            count += 1
+            print(f"  [{i}/{len(fetched)}] {domain} — robots.txt found")
+    if count:
+        print(f"  Fetched {count} robots.txt files")
+
+
 def analyze_all(fetched, domains):
     categories, technologies = load_wappalyzer()
     print(f"Wappalyzer DB: {len(technologies)} technologies loaded")
@@ -50,7 +64,6 @@ def analyze_all(fetched, domains):
 
         techs = detect_technologies(data, technologies, categories)
 
-        # DNS lookups
         dns_techs = detect_dns_technologies(domain)
         for tech_name, tech_info in dns_techs.items():
             if tech_name not in techs:
@@ -98,21 +111,20 @@ def main():
     print(f"Domains: {len(domains)}")
     start = time.time()
 
-    # Step 1: Fetch (or load cached)
     import os
     if os.path.exists("data/fetched.json"):
         print("Loading cached fetch data...")
         with open("data/fetched.json") as f:
             fetched = json.load(f)
+        print("\nFetching robots.txt for cached domains...")
+        enrich_with_robots(fetched)
     else:
         print("Fetching domains...")
         fetched = fetch_all(domains)
 
-    # Step 2: Detect technologies (HTTP + DNS)
-    print("\nAnalyzing technologies...")
+    print("\nAnalyzing technologies (HTTP + DNS + robots.txt)...")
     results = analyze_all(fetched, domains)
 
-    # Step 3: Save results
     save_results(results)
 
     print(f"\nTotal time: {time.time() - start:.0f}s")

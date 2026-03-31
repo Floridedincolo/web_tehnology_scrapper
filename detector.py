@@ -18,10 +18,39 @@ def make_regex(pattern):
         return None
 
 
+ROBOTS_SIGNATURES = [
+    ("/wp-admin", "WordPress"),
+    ("/wp-includes", "WordPress"),
+    ("wp-content", "WordPress"),
+    ("/administrator/", "Joomla"),
+    ("Sitemap: ", "Sitemap"),
+    ("/cart", "E-commerce"),
+    ("/checkout", "E-commerce"),
+    ("Disallow: /admin", "Admin Panel"),
+]
+
+
+def detect_robots(robots_txt):
+    detected = {}
+    if not robots_txt:
+        return detected
+
+    for pattern, tech_name in ROBOTS_SIGNATURES:
+        if pattern.lower() in robots_txt.lower():
+            detected[tech_name] = {
+                "categories": ["robots.txt"],
+                "evidence": [f"robots.txt contains '{pattern}'"],
+            }
+
+    return detected
+
+
 def detect_technologies(fetch_result, technologies, categories):
     html = fetch_result.get("html", "")
     headers = fetch_result.get("headers", {})
     cookies = fetch_result.get("cookies", [])
+    final_url = fetch_result.get("url", "")
+    robots_txt = fetch_result.get("robots_txt", "")
 
     headers_lower = {k.lower(): v for k, v in headers.items()}
 
@@ -92,6 +121,15 @@ def detect_technologies(fetch_result, technologies, categories):
                 if regex and regex.search(meta_val):
                     evidence.append(f"meta: {meta_name}={meta_val[:40]}")
 
+        # URL patterns
+        url_patterns = tech_data.get("url", [])
+        if isinstance(url_patterns, str):
+            url_patterns = [url_patterns]
+        for pattern in url_patterns:
+            regex = make_regex(pattern)
+            if regex and regex.search(final_url):
+                evidence.append(f"url: {final_url[:60]}")
+
         if evidence:
             cat_ids = tech_data.get("cats", [])
             cat_names = []
@@ -105,6 +143,12 @@ def detect_technologies(fetch_result, technologies, categories):
                 "evidence": evidence,
                 "website": tech_data.get("website", ""),
             }
+
+    # robots.txt detections
+    robots_techs = detect_robots(robots_txt)
+    for tech_name, tech_info in robots_techs.items():
+        if tech_name not in detected:
+            detected[tech_name] = tech_info
 
     # Resolve implies
     to_add = {}
