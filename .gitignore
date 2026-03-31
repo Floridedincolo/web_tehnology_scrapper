@@ -205,3 +205,47 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Dependencies
+node_modules/
+venv/
+env/
+
+# WAppAnalyzer / Detection tools
+wappanalyzer_results/
+wappanalyzer_output/
+*.wapp
+scan_results/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Build
+dist/
+build/
+# Secrets & sensitive data
+.env
+.env.local
+secrets.json
+data/fetched.json
+wappanalyzer_results/
+output/
+
+# API Keys, tokens
+*_token*
+*_secret*
+*.key
