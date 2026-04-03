@@ -1,0 +1,893 @@
+domain,technology,categories,evidence
+jcmobilecigars.com,HSTS,Security,header: Strict-Transport-Security
+jcmobilecigars.com,Squarespace,CMS,header: server=Squarespace
+jcmobilecigars.com,Squarespace Commerce,Ecommerce,header: server=Squarespace
+somalidisablesupport.com,Apache HTTP Server,Web servers,header: Server=Apache
+somalidisablesupport.com,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.27.5; features: additional_c
+somalidisablesupport.com,Endurance Page Cache,WordPress plugins; Caching,header: x-endurance-cache-level
+somalidisablesupport.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: https://somalidisablesupport.com/wp-content/themes/astra/ass"
+somalidisablesupport.com,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+somalidisablesupport.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+somalidisablesupport.com,PHP,Programming languages,implied by WordPress
+somalidisablesupport.com,MySQL,Databases,implied by WordPress
+somalidisablesupport.com,SPF,DNS,DNS record contains 'v=spf1'
+yourfamilylines.com,Apache HTTP Server,Web servers,header: Server=Apache
+yourfamilylines.com,GoDaddy Email,DNS,DNS record contains 'secureserver.net'
+szentkristofudvarhaz.hu,Apache HTTP Server,Web servers,header: Server=Apache
+szentkristofudvarhaz.hu,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: X-Pingback=https://szentkristofudvarhaz.hu/xmlrpc.p | script: https://szentkristofudvarhaz.hu/wp-content/themes/szentkrist"
+szentkristofudvarhaz.hu,PHP,Programming languages,implied by WordPress
+szentkristofudvarhaz.hu,MySQL,Databases,implied by WordPress
+szentkristofudvarhaz.hu,SPF,DNS,DNS record contains 'v=spf1'
+disneystore.com,Akamai,CDN,header: X-Akamai-Transformed
+disneystore.com,Akamai Bot Manager,Security,cookie: bm_sz
+disneystore.com,Akamai mPulse,RUM,html: <script>[\s\S]*?go-mpulse\.net\/boomerang[\s\S]*?</script>
+disneystore.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+disneystore.com,HSTS,Security,header: Strict-Transport-Security
+disneystore.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=93600"
+disneystore.com,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?render=explicit
+disneystore.com,Salesforce Commerce Cloud,Ecommerce,cookie: dw_dnt | cookie: dwsid
+disneystore.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+disneystore.com,E-commerce,robots.txt,robots.txt contains '/checkout'
+disneystore.com,Boomerang,JavaScript libraries; RUM,implied by Akamai mPulse
+disneystore.com,Salesforce,CRM,implied by Salesforce Commerce Cloud
+disneystore.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+disneystore.com,SPF,DNS,DNS record contains 'v=spf1'
+chavchavadze-m2-41-tbilisi.booked.net,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+chavchavadze-m2-41-tbilisi.booked.net,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+trs-energycontrol.de,Google Cloud CDN,CDN,header: Via=1.1 google
+trs-energycontrol.de,HSTS,Security,header: Strict-Transport-Security
+trs-energycontrol.de,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000"
+trs-energycontrol.de,WebsiteBuilder,Page builders,meta: generator=Wix.com Website Builder
+trs-energycontrol.de,Wix,CMS; Blogs,header: X-Wix-Request-Id | meta: generator=Wix.com Website Builder
+trs-energycontrol.de,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+trs-energycontrol.de,Google Cloud,IaaS,implied by Google Cloud CDN
+trs-energycontrol.de,React,JavaScript frameworks,implied by Wix
+xn--kleoghvidevareservice-qfc.dk,Nginx,Web servers; Reverse proxies,header: Server=nginx/1.29.1
+xn--kleoghvidevareservice-qfc.dk,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: https://xn--kleoghvidevareservice-qfc.dk/wp-content/themes/a"
+xn--kleoghvidevareservice-qfc.dk,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+xn--kleoghvidevareservice-qfc.dk,PHP,Programming languages,implied by WordPress
+xn--kleoghvidevareservice-qfc.dk,MySQL,Databases,implied by WordPress
+gogroupauto.com,HSTS,Security,header: Strict-Transport-Security
+gogroupauto.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+231selfstorage.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+globalrn.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-ray
+globalrn.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+globalrn.com,Google Workspace,DNS,DNS record contains 'google.com'
+5starremoval.weebly.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+5starremoval.weebly.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+5starremoval.weebly.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+coenzwezerijnen.nu,Apache HTTP Server,Web servers,header: Server=Apache/2
+gutendorf.ru,Nginx,Web servers; Reverse proxies,header: Server=nginx/1.28.2
+gutendorf.ru,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?render=6LcsTxUaAAAAA
+gutendorf.ru,UIKit,UI frameworks,"html: <[^>]+class=""[^""]*(?:uk-container|uk-section)"
+gutendorf.ru,WooCommerce,Ecommerce; WordPress plugins,meta: generator=WooCommerce 7.9.0
+gutendorf.ru,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: //gutendorf.ru/wp-content/cache/wpfc-minified/f3ihhar9/bumn8"
+gutendorf.ru,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+gutendorf.ru,PHP,Programming languages,implied by WordPress
+gutendorf.ru,MySQL,Databases,implied by WordPress
+gutendorf.ru,SPF,DNS,DNS record contains 'v=spf1'
+katesworldtravel.com,Bluehost,Hosting,header: host-header=c2hhcmVkLmJsdWVob3N0LmNvbQ==
+katesworldtravel.com,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.9; features: additional_c
+katesworldtravel.com,Endurance Page Cache,WordPress plugins; Caching,header: x-endurance-cache-level
+katesworldtravel.com,Nginx,Web servers; Reverse proxies,header: Server=nginx/1.27.2
+katesworldtravel.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://katesworldtravel.com/wp-json/>; | script: https://katesworldtravel.com/wp-content/themes/astra/assets/"
+katesworldtravel.com,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+katesworldtravel.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+katesworldtravel.com,PHP,Programming languages,implied by WordPress
+katesworldtravel.com,MySQL,Databases,implied by WordPress
+katesworldtravel.com,Google Workspace,DNS,DNS record contains 'google.com'
+katesworldtravel.com,SPF,DNS,DNS record contains 'v=spf1'
+3xd.co.uk,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+3xd.co.uk,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+3xd.co.uk,Gravity Forms,WordPress plugins; Form builders,"html: <div class=(?:""|')[^>]*gform_wrapper | html: <div class=(?:""|')[^>]*gform_body"
+3xd.co.uk,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+3xd.co.uk,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?hl=en&amp;ver=6.9.1#
+3xd.co.uk,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.3xd.co.uk/wp-json/>; rel=""h | script: https://www.3xd.co.uk/wp-content/plugins/gravityforms/js/jqu"
+3xd.co.uk,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+3xd.co.uk,WordPress Site Editor,Page builders,"html: <div class=""wp-site-blocks"">"
+3xd.co.uk,WP Engine,PaaS; Hosting,header: X-Powered-By=WP Engine
+3xd.co.uk,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+3xd.co.uk,ZURB Foundation,UI frameworks,"html: <link[^>]+foundation[^>""]+css"
+3xd.co.uk,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+3xd.co.uk,PHP,Programming languages,implied by WordPress
+3xd.co.uk,MySQL,Databases,implied by WordPress
+3xd.co.uk,Google Workspace,DNS,DNS record contains 'google.com'
+3xd.co.uk,Microsoft 365,DNS,DNS record contains 'ms='
+3xd.co.uk,Google Search Console,DNS,DNS record contains 'google-site-verification'
+3xd.co.uk,SPF,DNS,DNS record contains 'v=spf1'
+3xd.co.uk,Apple,DNS,DNS record contains 'apple-domain-verification'
+gapconstructionwi.com,Google Cloud CDN,CDN,header: Via=1.1 google
+gapconstructionwi.com,HSTS,Security,header: Strict-Transport-Security
+gapconstructionwi.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000"
+gapconstructionwi.com,WebsiteBuilder,Page builders,meta: generator=Wix.com Website Builder
+gapconstructionwi.com,Wix,CMS; Blogs,header: X-Wix-Request-Id | meta: generator=Wix.com Website Builder
+gapconstructionwi.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+gapconstructionwi.com,Google Cloud,IaaS,implied by Google Cloud CDN
+gapconstructionwi.com,React,JavaScript frameworks,implied by Wix
+gapconstructionwi.com,Google Workspace,DNS,DNS record contains 'google.com'
+gapconstructionwi.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+gapconstructionwi.com,SPF,DNS,DNS record contains 'v=spf1'
+imgs.co.jp,Adobe Experience Manager,CMS,"html: <div class=""[^""]*aem-Grid"
+imgs.co.jp,Apache HTTP Server,Web servers,header: Server=Apache
+imgs.co.jp,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+imgs.co.jp,Java,Programming languages,implied by Adobe Experience Manager
+imgs.co.jp,SPF,DNS,DNS record contains 'v=spf1'
+imgs.co.jp,Microsoft 365,DNS,DNS record contains 'ms='
+clotting-guide.online,Apache HTTP Server,Web servers,header: Server=Apache
+clotting-guide.online,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.clotting-guide.online/wp-js | script: https://www.clotting-guide.online/wp-content/plugins/wpfront | meta: generator=WordPress 6.9.4"
+clotting-guide.online,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+clotting-guide.online,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+clotting-guide.online,PHP,Programming languages,implied by WordPress
+clotting-guide.online,MySQL,Databases,implied by WordPress
+clotting-guide.online,SPF,DNS,DNS record contains 'v=spf1'
+38inspect.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+38inspect.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+38inspect.com,Kinsta,PaaS; Hosting,header: x-kinsta-cache
+38inspect.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.38inspect.com/wp-json/>; re | script: https://www.38inspect.com/wp-content/plugins/wp-review-slide | meta: generator=WordPress 6.9.4"
+38inspect.com,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+38inspect.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+38inspect.com,PHP,Programming languages,implied by WordPress
+38inspect.com,MySQL,Databases,implied by WordPress
+38inspect.com,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+38inspect.com,GoDaddy Email,DNS,DNS record contains 'secureserver.net'
+38inspect.com,SPF,DNS,DNS record contains 'v=spf1'
+newbeaverborough.org,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.3; features: additional_c
+newbeaverborough.org,Nginx,Web servers; Reverse proxies,header: Server=nginx
+newbeaverborough.org,W3 Total Cache,Caching; WordPress plugins,html: <!--[^>]+W3 Total Cache
+newbeaverborough.org,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: https://newbeaverborough.org/wp-content/plugins/cryptx/js/cr"
+newbeaverborough.org,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+newbeaverborough.org,PHP,Programming languages,implied by WordPress
+newbeaverborough.org,MySQL,Databases,implied by WordPress
+newbeaverborough.org,SPF,DNS,DNS record contains 'v=spf1'
+largsbaychiropractic.com.au,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+largsbaychiropractic.com.au,Cloudflare,DNS,DNS record contains 'cloudflare'
+largsbaychiropractic.com.au,Microsoft 365,DNS,DNS record contains 'ms='
+largsbaychiropractic.com.au,GoDaddy Email,DNS,DNS record contains 'secureserver.net'
+largsbaychiropractic.com.au,SPF,DNS,DNS record contains 'v=spf1'
+rsthealthcare.com,Hostinger,Hosting,header: platform=hostinger
+rsthealthcare.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+rsthealthcare.com,LiteSpeed,Web servers,header: Server=LiteSpeed
+rsthealthcare.com,PHP,Programming languages,header: X-Powered-By=PHP/7.4.33
+rsthealthcare.com,SPF,DNS,DNS record contains 'v=spf1'
+dioxoxigenio.com.br,Apache HTTP Server,Web servers,header: Server=Apache
+dioxoxigenio.com.br,WordPress,robots.txt,robots.txt contains '/wp-admin'
+dioxoxigenio.com.br,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+dioxoxigenio.com.br,PHP,Programming languages,implied by WordPress
+dioxoxigenio.com.br,MySQL,Databases,implied by WordPress
+dioxoxigenio.com.br,SPF,DNS,DNS record contains 'v=spf1'
+doringpoort.com,Nginx,Web servers; Reverse proxies,header: Server=nginx
+doringpoort.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://doringpoort.com/wp-json/>; rel= | script: https://doringpoort.com/wp-content/plugins/wp-tripadvisor-re | meta: generator=WordPress 6.9.4"
+doringpoort.com,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+doringpoort.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+doringpoort.com,PHP,Programming languages,implied by WordPress
+doringpoort.com,MySQL,Databases,implied by WordPress
+doringpoort.com,SPF,DNS,DNS record contains 'v=spf1'
+fsbwyoming.com,Amazon S3,CDN,header: Content-Security-Policy=default-src * blob: 'unsafe-inline' 'uns
+fsbwyoming.com,HSTS,Security,header: Strict-Transport-Security
+fsbwyoming.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=93600"
+fsbwyoming.com,Plaid,Payment processors; Miscellaneous,header: content-security-policy=default-src * blob: 'unsafe-inline' 'uns
+fsbwyoming.com,Amazon Web Services,PaaS,implied by Amazon S3
+fsbwyoming.com,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+fsbwyoming.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+fsbwyoming.com,SPF,DNS,DNS record contains 'v=spf1'
+msc-manching.de,Apache HTTP Server,Web servers,header: Server=Apache
+msc-manching.de,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+msc-manching.de,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://msc-manching.de/wp-json/>; rel= | script: https://msc-manching.de/wp-content/themes/sparkling/assets/j | meta: generator=WordPress 6.2.9"
+msc-manching.de,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+msc-manching.de,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+msc-manching.de,PHP,Programming languages,implied by WordPress
+msc-manching.de,MySQL,Databases,implied by WordPress
+msc-manching.de,SPF,DNS,DNS record contains 'v=spf1'
+sgsextremaratio.it,Nginx,Web servers; Reverse proxies,header: Server=nginx/1.18.0 (Ubuntu)
+sgsextremaratio.it,Nuxt.js,JavaScript frameworks; Web frameworks; Static site generator,"html: <div [^>]*id=""__nuxt"""
+sgsextremaratio.it,Ubuntu,Operating systems,header: Server=nginx/1.18.0 (Ubuntu)
+sgsextremaratio.it,Vue.js,JavaScript frameworks,html: <(?!svg)[^>]+\sdata-v(?:ue)?-
+sgsextremaratio.it,Google Search Console,DNS,DNS record contains 'google-site-verification'
+sgsextremaratio.it,SPF,DNS,DNS record contains 'v=spf1'
+coastwidemechanicalcentralcoast.com.au,Divi,Page builders; WordPress themes; WordPress plugins,meta: generator=Divi v.4.27.6
+coastwidemechanicalcentralcoast.com.au,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+coastwidemechanicalcentralcoast.com.au,LiteSpeed,Web servers,header: Server=LiteSpeed
+coastwidemechanicalcentralcoast.com.au,LiteSpeed Cache,Caching; WordPress plugins,header: x-litespeed-cache
+coastwidemechanicalcentralcoast.com.au,Litespeed Cache,Caching; WordPress plugins,header: x-litespeed-cache
+coastwidemechanicalcentralcoast.com.au,PHP,Programming languages,header: X-Powered-By=PHP/7.4.33
+coastwidemechanicalcentralcoast.com.au,WordPress,CMS; Blogs,header: link=<https://coastwidemechanicalcentralcoast | script: https://coastwidemechanicalcentralcoast.com.au/wp-content/li
+coastwidemechanicalcentralcoast.com.au,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+coastwidemechanicalcentralcoast.com.au,MySQL,Databases,implied by WordPress
+coastwidemechanicalcentralcoast.com.au,SPF,DNS,DNS record contains 'v=spf1'
+amourfinder.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+amourfinder.com,SPF,DNS,DNS record contains 'v=spf1'
+lojatatical.com.br,Google Workspace,DNS,DNS record contains 'google.com'
+lojatatical.com.br,Google Search Console,DNS,DNS record contains 'google-site-verification'
+lojatatical.com.br,SPF,DNS,DNS record contains 'v=spf1'
+jobresourcecentre.com,Amazon Web Services,PaaS,script: //s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js
+jobresourcecentre.com,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+jobresourcecentre.com,Flywheel,PaaS; Hosting,header: x-fw-hash | header: x-fw-serve | header: x-fw-server=Flywheel/5.1.0 | header: x-fw-static | header: x-fw-type
+jobresourcecentre.com,reCAPTCHA,Security,script: //www.google.com/recaptcha/api.js?ver=6.9.4
+jobresourcecentre.com,Slider Revolution,Widgets; Photo galleries,meta: generator=Powered by Slider Revolution 6.6.14 - re
+jobresourcecentre.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://jobresourcecentre.com/wp-json/> | script: https://jobresourcecentre.com/wp-content/themes/superio/js/b"
+jobresourcecentre.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+jobresourcecentre.com,PHP,Programming languages,implied by WordPress
+jobresourcecentre.com,MySQL,Databases,implied by WordPress
+jobresourcecentre.com,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+jobresourcecentre.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+jobresourcecentre.com,SPF,DNS,DNS record contains 'v=spf1'
+253media.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+253media.com,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe>
+253media.com,HSTS,Security,header: Strict-Transport-Security
+253media.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+253media.com,Linkedin Ads,Advertising,"html: <img [^>]*src=""[^/]*//[^/]*px\.ads\.linkedin\.com"
+253media.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+253media.com,Google Workspace,DNS,DNS record contains 'google.com'
+253media.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+253media.com,SPF,DNS,DNS record contains 'v=spf1'
+velvety.eu,Apache HTTP Server,Web servers,header: Server=CERN httpd
+velvety.eu,CFML,Programming languages,cookie: CFID
+velvety.eu,HSTS,Security,header: Strict-Transport-Security
+velvety.eu,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+velvety.eu,Microsoft 365,DNS,DNS record contains 'ms='
+velvety.eu,SPF,DNS,DNS record contains 'v=spf1'
+doortodoororganics.com,AMP,JavaScript frameworks,html: <html[^>]* (?:amp|⚡)[^-]
+doortodoororganics.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+doortodoororganics.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+doortodoororganics.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+kentpropertyrenovations.co.uk,Apache HTTP Server,Web servers,header: Server=Apache
+kentpropertyrenovations.co.uk,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: //kentpropertyrenovations.co.uk/wp-content/cache/wpfc-minifi | meta: generator=WordPress 6.9.4"
+kentpropertyrenovations.co.uk,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+kentpropertyrenovations.co.uk,PHP,Programming languages,implied by WordPress
+kentpropertyrenovations.co.uk,MySQL,Databases,implied by WordPress
+kentpropertyrenovations.co.uk,Google Search Console,DNS,DNS record contains 'google-site-verification'
+kentpropertyrenovations.co.uk,SPF,DNS,DNS record contains 'v=spf1'
+fisherinvestments.com,Proofpoint,DNS,DNS record contains 'pphosted.com'
+rionecontrastanga.net,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+rionecontrastanga.net,PHP,Programming languages,header: X-Powered-By=PHP/7.4.33
+rionecontrastanga.net,Slider Revolution,Widgets; Photo galleries,meta: generator=Powered by Slider Revolution 5.4.7.4 - r
+rionecontrastanga.net,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://rionecontrastanga.net/wp-json/> | script: https://rionecontrastanga.net/wp-content/themes/bridge/js/pl"
+rionecontrastanga.net,MySQL,Databases,implied by WordPress
+rionecontrastanga.net,SPF,DNS,DNS record contains 'v=spf1'
+stwannas.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-ray
+stwannas.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+stwannas.com,HSTS,Security,header: Strict-Transport-Security
+stwannas.com,Google Workspace,DNS,DNS record contains 'googlemail.com'
+stwannas.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+empresasori.com,Apache HTTP Server,Web servers,header: Server=Apache
+empresasori.com,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+empresasori.com,PHP,Programming languages,header: X-Powered-By=PHP/8.0.30
+empresasori.com,Slider Revolution,Widgets; Photo galleries,meta: generator=Powered by Slider Revolution 6.5.9 - res
+empresasori.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://empresasori.com/wp-json/>; rel= | script: https://empresasori.com/wp-content/themes/woodmart/js/libs/i"
+empresasori.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+empresasori.com,MySQL,Databases,implied by WordPress
+empresasori.com,Google Workspace,DNS,DNS record contains 'googlemail.com'
+familybroker.cz,Nginx,Web servers; Reverse proxies,header: Server=nginx
+familybroker.cz,SPF,DNS,DNS record contains 'v=spf1'
+genesisny.net,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+genesisny.net,LiteSpeed,Web servers,header: Server=LiteSpeed
+5w.design,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+5w.design,Cloudflare Bot Management,Security,cookie: __cf_bm
+5w.design,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+5w.design,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://5w.design/wp-json/>; rel=""https | script: https://5w.design/wp-content/plugins/page-scroll-to-id/js/pa"
+5w.design,WP Engine,PaaS; Hosting,header: X-Powered-By=WP Engine
+5w.design,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+5w.design,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+5w.design,PHP,Programming languages,implied by WordPress
+5w.design,MySQL,Databases,implied by WordPress
+5w.design,Google Search Console,DNS,DNS record contains 'google-site-verification'
+5w.design,Facebook Domain Verification,DNS,DNS record contains 'facebook-domain-verification'
+5w.design,SPF,DNS,DNS record contains 'v=spf1'
+huberautomotive.com,HSTS,Security,header: Strict-Transport-Security
+huberautomotive.com,Mimecast,DNS,DNS record contains 'mimecast.com'
+huberautomotive.com,SPF,DNS,DNS record contains 'v=spf1'
+marien-apotheke-grefrath-app.de,HSTS,Security,header: Strict-Transport-Security
+marien-apotheke-grefrath-app.de,SPF,DNS,DNS record contains 'v=spf1'
+centreconsiliereavort.ro,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+centreconsiliereavort.ro,LiteSpeed,Web servers,header: Server=LiteSpeed
+centreconsiliereavort.ro,PHP,Programming languages,header: X-Powered-By=PHP/7.4.33
+centreconsiliereavort.ro,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://centreconsiliereavort.ro/wp-jso | script: https://centreconsiliereavort.ro/wp-content/themes/twentytwe | meta: generator=WordPress 6.9.4"
+centreconsiliereavort.ro,YouTube,Video players,html: <(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\.com/(?:v|
+centreconsiliereavort.ro,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+centreconsiliereavort.ro,MySQL,Databases,implied by WordPress
+centreconsiliereavort.ro,SPF,DNS,DNS record contains 'v=spf1'
+infoaboutnetwork.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+infoaboutnetwork.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+infoaboutnetwork.com,LiteSpeed,Web servers,header: X-Turbo-Charged-By=LiteSpeed
+infoaboutnetwork.com,LiteSpeed Cache,Caching; WordPress plugins,header: x-litespeed-cache | header: x-turbo-charged-by=LiteSpeed
+infoaboutnetwork.com,Litespeed Cache,Caching; WordPress plugins,header: x-litespeed-cache | header: x-turbo-charged-by=LiteSpeed
+infoaboutnetwork.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.infoaboutnetwork.com/wp-jso | script: https://www.infoaboutnetwork.com/wp-content/themes/generatep | meta: generator=WordPress 6.9.4"
+infoaboutnetwork.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+infoaboutnetwork.com,PHP,Programming languages,implied by WordPress
+infoaboutnetwork.com,MySQL,Databases,implied by WordPress
+infoaboutnetwork.com,SPF,DNS,DNS record contains 'v=spf1'
+11853prospecthill.com,Amazon S3,CDN,header: x-amz-server-side-encryption
+11853prospecthill.com,Amazon Web Services,PaaS,header: x-amz-id-2 | header: x-amz-request-id
+11853prospecthill.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+11853prospecthill.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+11853prospecthill.com,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+11853prospecthill.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+passwordstore.it,Apache HTTP Server,Web servers,header: Server=Apache
+passwordstore.it,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.9; features: additional_c
+passwordstore.it,HSTS,Security,header: Strict-Transport-Security
+passwordstore.it,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: //passwordstore.it/wp-content/cache/wpfc-minified/145wlqhb/a"
+passwordstore.it,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+passwordstore.it,PHP,Programming languages,implied by WordPress
+passwordstore.it,MySQL,Databases,implied by WordPress
+passwordstore.it,SPF,DNS,DNS record contains 'v=spf1'
+avocatalinamanciu.ro,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.15.1; features: e_dom_optimi
+avocatalinamanciu.ro,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+avocatalinamanciu.ro,LiteSpeed,Web servers,header: Server=LiteSpeed
+avocatalinamanciu.ro,LiteSpeed Cache,Caching; WordPress plugins,header: x-litespeed-cache
+avocatalinamanciu.ro,Litespeed Cache,Caching; WordPress plugins,header: x-litespeed-cache
+avocatalinamanciu.ro,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://avocatalinamanciu.ro/wp-json/>; | script: https://avocatalinamanciu.ro/wp-content/plugins/elementor/as"
+avocatalinamanciu.ro,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+avocatalinamanciu.ro,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+avocatalinamanciu.ro,PHP,Programming languages,implied by WordPress
+avocatalinamanciu.ro,MySQL,Databases,implied by WordPress
+avocatalinamanciu.ro,SPF,DNS,DNS record contains 'v=spf1'
+dssfla.com,Bluehost,Hosting,header: host-header=c2hhcmVkLmJsdWVob3N0LmNvbQ==
+dssfla.com,Endurance Page Cache,WordPress plugins; Caching,header: x-endurance-cache-level
+dssfla.com,Nginx,Web servers; Reverse proxies,header: Server=nginx/1.25.5
+dssfla.com,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?onload=EVFRecaptchaL
+dssfla.com,WordPress,CMS; Blogs,"header: link=<https://www.dssfla.com/wp-json/>; rel="" | script: https://www.dssfla.com/wp-content/plugins/litespeed-cache/as"
+dssfla.com,wpBakery,Page builders; WordPress plugins,meta: generator=Powered by WPBakery Page Builder - drag 
+dssfla.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+dssfla.com,PHP,Programming languages,implied by WordPress
+dssfla.com,MySQL,Databases,implied by WordPress
+dssfla.com,Microsoft 365,DNS,DNS record contains 'ms='
+dssfla.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+dssfla.com,SPF,DNS,DNS record contains 'v=spf1'
+weducars.co.za,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+weducars.co.za,LiteSpeed,Web servers,header: Server=LiteSpeed
+weducars.co.za,Slider Revolution,Widgets; Photo galleries,meta: generator=Powered by Slider Revolution 6.7.4 - res
+weducars.co.za,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://weducars.co.za/wp-json/>; rel="" | script: https://weducars.co.za/css/wp-content/plugins/woocommerce/as"
+weducars.co.za,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+weducars.co.za,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+weducars.co.za,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+weducars.co.za,PHP,Programming languages,implied by WordPress
+weducars.co.za,MySQL,Databases,implied by WordPress
+weducars.co.za,SPF,DNS,DNS record contains 'v=spf1'
+4stonebuildings.com,Adobe Fonts,Font scripts,"html: <link [^>]*href=""[^""]+use\.typekit\.(?:net|com)"
+4stonebuildings.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+4stonebuildings.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+4stonebuildings.com,HSTS,Security,header: Strict-Transport-Security
+4stonebuildings.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+4stonebuildings.com,Kinsta,PaaS; Hosting,header: x-kinsta-cache
+4stonebuildings.com,Typekit,Font scripts,"html: <link [^>]*href=""[^""]+use\.typekit\.(?:net|com)"
+4stonebuildings.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: https://4stonebuildings.com/wp-content/plugins/google-analyt"
+4stonebuildings.com,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+4stonebuildings.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+4stonebuildings.com,PHP,Programming languages,implied by WordPress
+4stonebuildings.com,MySQL,Databases,implied by WordPress
+4stonebuildings.com,Google Workspace,DNS,DNS record contains 'google.com'
+4stonebuildings.com,Microsoft 365,DNS,DNS record contains 'ms='
+4stonebuildings.com,Mimecast,DNS,DNS record contains 'mimecast.com'
+4stonebuildings.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+4stonebuildings.com,SPF,DNS,DNS record contains 'v=spf1'
+4stonebuildings.com,Apple,DNS,DNS record contains 'apple-domain-verification'
+maniaupiekszania.pl,Apache HTTP Server,Web servers,header: Server=Apache/2
+maniaupiekszania.pl,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.18.3; features: e_dom_optimi
+maniaupiekszania.pl,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://maniaupiekszania.pl/wp-json/>;  | script: https://maniaupiekszania.pl/wp-content/plugins/dethemekit-fo"
+maniaupiekszania.pl,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+maniaupiekszania.pl,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+maniaupiekszania.pl,PHP,Programming languages,implied by WordPress
+maniaupiekszania.pl,MySQL,Databases,implied by WordPress
+maniaupiekszania.pl,Google Search Console,DNS,DNS record contains 'google-site-verification'
+maniaupiekszania.pl,SPF,DNS,DNS record contains 'v=spf1'
+sprucemeadowsmd.com,Apache HTTP Server,Web servers,header: Server=Apache
+sprucemeadowsmd.com,PHP,Programming languages,header: X-Powered-By=PHP/8.3.30
+sprucemeadowsmd.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://sprucemeadowsmd.com/wp-json/>;  | script: https://sprucemeadowsmd.com/wp-content/plugins/accessibility"
+sprucemeadowsmd.com,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+sprucemeadowsmd.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+sprucemeadowsmd.com,MySQL,Databases,implied by WordPress
+natedea.co.uk,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+natedea.co.uk,Nginx,Web servers; Reverse proxies,header: Server=nginx
+natedea.co.uk,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?render=6LctvkocAAAAA
+natedea.co.uk,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.natedea.co.uk/wp-json/>; re | script: https://www.natedea.co.uk/wp-content/plugins/google-analytic"
+natedea.co.uk,WP Engine,PaaS; Hosting,header: X-Powered-By=WP Engine
+natedea.co.uk,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+natedea.co.uk,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+natedea.co.uk,PHP,Programming languages,implied by WordPress
+natedea.co.uk,MySQL,Databases,implied by WordPress
+natedea.co.uk,SPF,DNS,DNS record contains 'v=spf1'
+loizillon.com,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+loizillon.com,HSTS,Security,header: Strict-Transport-Security
+loizillon.com,Java,Programming languages,cookie: JSESSIONID
+loizillon.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+loizillon.com,OVH,DNS,DNS record contains 'ovh.net'
+haus-muehlenfeld-pommerby.de,HSTS,Security,header: Strict-Transport-Security
+haus-muehlenfeld-pommerby.de,Nginx,Web servers; Reverse proxies,header: Server=nginx
+haus-muehlenfeld-pommerby.de,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+haus-muehlenfeld-pommerby.de,SPF,DNS,DNS record contains 'v=spf1'
+arenaskolor.se,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.9; features: e_font_icon_
+arenaskolor.se,HSTS,Security,header: Strict-Transport-Security
+arenaskolor.se,Nginx,Web servers; Reverse proxies,header: Server=nginx
+arenaskolor.se,Seravo,PaaS; Hosting,header: x-powered-by=Seravo
+arenaskolor.se,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://arenaskolor.se/wp-json/>; rel="" | script: https://arenaskolor.se/wp-content/themes/hello-elementor/ass"
+arenaskolor.se,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+arenaskolor.se,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+arenaskolor.se,PHP,Programming languages,implied by WordPress
+arenaskolor.se,MySQL,Databases,implied by WordPress
+arenaskolor.se,Microsoft 365,DNS,DNS record contains 'ms='
+arenaskolor.se,SendGrid,DNS,DNS record contains 'sendgrid.net'
+arenaskolor.se,SPF,DNS,DNS record contains 'v=spf1'
+boken.ch,Apache HTTP Server,Web servers,header: Server=Apache
+boken.ch,Site Kit,Analytics; WordPress plugins,meta: generator=Site Kit by Google 1.99.0
+boken.ch,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: X-Pingback=https://boken.ch/xmlrpc.php | header: link=<https://boken.ch/wp-json/>; rel=""https: | script: https://boken.ch/wp-content/themes/natural-lite/js/jquery.fi"
+boken.ch,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+boken.ch,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+boken.ch,PHP,Programming languages,implied by WordPress
+boken.ch,MySQL,Databases,implied by WordPress
+boken.ch,SPF,DNS,DNS record contains 'v=spf1'
+restwellstreetmedicalcentre.com.au,SPF,DNS,DNS record contains 'v=spf1'
+den-a-sha.co.jp,Apache HTTP Server,Web servers,header: Server=Apache
+den-a-sha.co.jp,SPF,DNS,DNS record contains 'v=spf1'
+365outsource.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+365outsource.com,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.9; features: additional_c
+365outsource.com,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+365outsource.com,Hostinger,Hosting,header: platform=hostinger
+365outsource.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+365outsource.com,LiteSpeed,Web servers,header: X-Turbo-Charged-By=LiteSpeed
+365outsource.com,LiteSpeed Cache,Caching; WordPress plugins,header: x-litespeed-cache | header: x-turbo-charged-by=LiteSpeed
+365outsource.com,Litespeed Cache,Caching; WordPress plugins,header: x-litespeed-cache | header: x-turbo-charged-by=LiteSpeed
+365outsource.com,PHP,Programming languages,header: X-Powered-By=PHP/8.2.29
+365outsource.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.365outsource.com/wp-json/>; | script: https://www.365outsource.com/wp-content/themes/astra/assets/"
+365outsource.com,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+365outsource.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+365outsource.com,MySQL,Databases,implied by WordPress
+365outsource.com,Google Workspace,DNS,DNS record contains 'google.com'
+365outsource.com,Zoho Mail,DNS,DNS record contains 'zoho.com'
+365outsource.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+365outsource.com,SPF,DNS,DNS record contains 'v=spf1'
+aida-cruises.at,HSTS,Security,header: Strict-Transport-Security
+aida-cruises.at,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=93600"
+aida-cruises.at,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+aida-cruises.at,Google Search Console,DNS,DNS record contains 'google-site-verification'
+aida-cruises.at,SPF,DNS,DNS record contains 'v=spf1'
+lets.gr,Nginx,Web servers; Reverse proxies,header: Server=nginx
+skywayrestaurants.net,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.30.3; features: additional_c
+skywayrestaurants.net,Nginx,Web servers; Reverse proxies,header: Server=nginx/1.27.2
+skywayrestaurants.net,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://skywayrestaurants.net/wp-json/> | script: https://skywayrestaurants.net/wp-content/plugins/elementor/a"
+skywayrestaurants.net,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+skywayrestaurants.net,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+skywayrestaurants.net,PHP,Programming languages,implied by WordPress
+skywayrestaurants.net,MySQL,Databases,implied by WordPress
+skywayrestaurants.net,SPF,DNS,DNS record contains 'v=spf1'
+2020wealthadvisory.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+2020wealthadvisory.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+2020wealthadvisory.com,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.9; features: additional_c
+2020wealthadvisory.com,Elementor Cloud,Hosting,header: x-powered-by=Elementor Cloud
+2020wealthadvisory.com,HSTS,Security,header: Strict-Transport-Security
+2020wealthadvisory.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+2020wealthadvisory.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://2020wealthadvisory.com/wp-json/ | script: https://2020wealthadvisory.com/wp-content/themes/hello-eleme"
+2020wealthadvisory.com,PHP,Programming languages,implied by WordPress
+2020wealthadvisory.com,MySQL,Databases,implied by WordPress
+2020wealthadvisory.com,Google Workspace,DNS,DNS record contains 'google.com'
+2020wealthadvisory.com,SPF,DNS,DNS record contains 'v=spf1'
+2020wealthadvisory.com,Microsoft 365,DNS,DNS record contains 'ms='
+hnafirm.com,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+hnafirm.com,Nginx,Web servers; Reverse proxies,header: Server=nginx/1.18.0 (Ubuntu)
+hnafirm.com,OWL Carousel,JavaScript libraries,"html: <link [^>]*href=""[^""]+owl\.carousel(?:\.min)?\.css"
+hnafirm.com,Ubuntu,Operating systems,header: Server=nginx/1.18.0 (Ubuntu)
+hnafirm.com,jQuery,JavaScript libraries,implied by OWL Carousel
+hnafirm.com,Zoho Mail,DNS,DNS record contains 'zoho.com'
+hnafirm.com,SPF,DNS,DNS record contains 'v=spf1'
+itsolutions24.pl,Apache HTTP Server,Web servers,header: Server=Apache
+itsolutions24.pl,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+itsolutions24.pl,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://itsolutions24.pl/wp-json/>; rel | script: https://itsolutions24.pl/wp-content/themes/titan-digital-age | meta: generator=WordPress 6.9.4"
+itsolutions24.pl,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+itsolutions24.pl,WordPress Site Editor,Page builders,"html: <div class=""wp-site-blocks"">"
+itsolutions24.pl,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+itsolutions24.pl,PHP,Programming languages,implied by WordPress
+itsolutions24.pl,MySQL,Databases,implied by WordPress
+itsolutions24.pl,SPF,DNS,DNS record contains 'v=spf1'
+aaice.net,All in One SEO,SEO; WordPress plugins,html: <!-- all in one seo ([\d.]+) \;version:\1
+aaice.net,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+aaice.net,Cloudflare Bot Management,Security,cookie: __cf_bm
+aaice.net,Divi,Page builders; WordPress themes; WordPress plugins,meta: generator=Divi v.4.27.6
+aaice.net,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+aaice.net,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://aaice.net/wp-json/>; rel=""https | script: https://aaice.net/wp-content/plugins/google-analytics-for-wo"
+aaice.net,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+aaice.net,PHP,Programming languages,implied by WordPress
+aaice.net,MySQL,Databases,implied by WordPress
+aaice.net,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+aaice.net,SPF,DNS,DNS record contains 'v=spf1'
+mehmetefendimacedonia.com,Apache HTTP Server,Web servers,header: Server=Apache
+mehmetefendimacedonia.com,PHP,Programming languages,cookie: PHPSESSID
+mehmetefendimacedonia.com,SPF,DNS,DNS record contains 'v=spf1'
+laplumedelisibilite.fr,Nginx,Web servers; Reverse proxies,header: Server=nginx
+laplumedelisibilite.fr,PHP,Programming languages,"header: X-Powered-By=PHP/8.2.30, PleskLin | cookie: PHPSESSID"
+laplumedelisibilite.fr,OVH,DNS,DNS record contains 'ovh.net'
+laplumedelisibilite.fr,SPF,DNS,DNS record contains 'v=spf1'
+2ldm.com,Cloudflare,CDN,header: cf-cache-status | header: cf-ray
+2ldm.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+2ldm.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400, h3="":443""; ma=25920"
+2ldm.com,Sucuri,CDN; Security,header: x-sucuri-id
+2ldm.com,Vue.js,JavaScript frameworks,html: <(?!svg)[^>]+\sdata-v(?:ue)?-
+2ldm.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: https://2ldm.com/wp-content/plugins/google-analytics-for-wor"
+2ldm.com,wpBakery,Page builders; WordPress plugins,meta: generator=Powered by WPBakery Page Builder - drag 
+2ldm.com,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+2ldm.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+2ldm.com,PHP,Programming languages,implied by WordPress
+2ldm.com,MySQL,Databases,implied by WordPress
+2ldm.com,Microsoft 365,DNS,DNS record contains 'ms='
+2ldm.com,GoDaddy Email,DNS,DNS record contains 'secureserver.net'
+2ldm.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+2ldm.com,SPF,DNS,DNS record contains 'v=spf1'
+westchesterpointechiro.com,Apache HTTP Server,Web servers,header: Server=Apache
+westchesterpointechiro.com,HSTS,Security,header: Strict-Transport-Security
+westchesterpointechiro.com,PHP,Programming languages,cookie: PHPSESSID
+westchesterpointechiro.com,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+westchesterpointechiro.com,SPF,DNS,DNS record contains 'v=spf1'
+cei-expertises.fr,Hostinger,Hosting,header: platform=hostinger
+cei-expertises.fr,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000, h3-29="":443""; ma="
+cei-expertises.fr,LiteSpeed,Web servers,header: Server=LiteSpeed
+cei-expertises.fr,PHP,Programming languages,header: X-Powered-By=PHP/8.2.29
+cei-expertises.fr,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.cei-expertises.fr/wp-json/> | script: https://www.cei-expertises.fr/wp-content/plugins/divi-pixel/"
+cei-expertises.fr,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+cei-expertises.fr,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+cei-expertises.fr,MySQL,Databases,implied by WordPress
+cei-expertises.fr,SPF,DNS,DNS record contains 'v=spf1'
+seringa-safaris.com,Apache HTTP Server,Web servers,header: Server=Apache
+seringa-safaris.com,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+seringa-safaris.com,Joomla,CMS,"html: (?:<div[^>]+id=""wrapper_r""|<(?:link|script)[^>]+(?:feed|comp | meta: generator=Joomla! - Open Source Content Management"
+seringa-safaris.com,YouTube,Video players,html: <(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\.com/(?:v|
+seringa-safaris.com,Admin Panel,robots.txt,robots.txt contains 'Disallow: /admin'
+seringa-safaris.com,PHP,Programming languages,implied by Joomla
+seringa-safaris.com,SPF,DNS,DNS record contains 'v=spf1'
+1planettechnologies.weebly.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+1planettechnologies.weebly.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+1planettechnologies.weebly.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+soziale-dreigliederung.de,SPF,DNS,DNS record contains 'v=spf1'
+premierhomeremodeling.net,Nginx,Web servers; Reverse proxies,header: Server=nginx
+premierhomeremodeling.net,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+bas-ingenieria.cl,Apache HTTP Server,Web servers,header: Server=Apache
+bas-ingenieria.cl,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+produkttheater.de,Nginx,Web servers; Reverse proxies,header: Server=nginx
+produkttheater.de,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+unnames.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+unnames.com,HSTS,Security,header: Strict-Transport-Security
+unnames.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+unnames.com,Shopify,Ecommerce,cookie: _shopify_s | cookie: _shopify_y | meta: shopify-checkout-api-token | meta: shopify-digital-wallet
+unnames.com,Slick,JavaScript libraries,html: <link [^>]+(?:/([\d.]+)/)?slick-theme\.css\;version:\1
+unnames.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+unnames.com,E-commerce,robots.txt,robots.txt contains '/checkout'
+unnames.com,Admin Panel,robots.txt,robots.txt contains 'Disallow: /admin'
+unnames.com,jQuery,JavaScript libraries,implied by Slick
+handycars.com,HSTS,Security,header: Strict-Transport-Security
+handycars.com,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+handycars.com,SendGrid,DNS,DNS record contains 'sendgrid.net'
+handycars.com,SPF,DNS,DNS record contains 'v=spf1'
+antikebau.de,Apache HTTP Server,Web servers,header: Server=Apache
+antikebau.de,SPF,DNS,DNS record contains 'v=spf1'
+3strandschurch.org,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+3strandschurch.org,Cloudflare Bot Management,Security,cookie: __cf_bm
+3strandschurch.org,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+3strandschurch.org,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://3strandschurch.org/wp-json/>; r | script: https://3strandschurch.org/wp-content/plugins/modern-events-"
+3strandschurch.org,WP Engine,PaaS; Hosting,header: X-Powered-By=WP Engine
+3strandschurch.org,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+3strandschurch.org,PHP,Programming languages,implied by WordPress
+3strandschurch.org,MySQL,Databases,implied by WordPress
+alabamabuildingcontractor.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+alabamabuildingcontractor.com,Divi,Page builders; WordPress themes; WordPress plugins,meta: generator=Divi v.4.22.2
+alabamabuildingcontractor.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+alabamabuildingcontractor.com,PHP,Programming languages,"header: X-Powered-By=PHP/8.3.30, PleskLin"
+alabamabuildingcontractor.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.alabamabuildingcontractor.c | script: https://www.alabamabuildingcontractor.com/wp-content/themes/"
+alabamabuildingcontractor.com,MySQL,Databases,implied by WordPress
+resourceservicesolutions.com,Apache HTTP Server,Web servers,header: Server=Apache
+resourceservicesolutions.com,PHP,Programming languages,script: http://www.resourceservicesolutions.com/cms/cms-display.php?
+resourceservicesolutions.com,GoDaddy Email,DNS,DNS record contains 'secureserver.net'
+resourceservicesolutions.com,SPF,DNS,DNS record contains 'v=spf1'
+resourceservicesolutions.com,Microsoft 365,DNS,DNS record contains 'ms='
+skywardspeech.com.au,Apache HTTP Server,Web servers,header: Server=Apache
+skywardspeech.com.au,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+skywardspeech.com.au,Google Workspace,DNS,DNS record contains 'google.com'
+skywardspeech.com.au,Google Search Console,DNS,DNS record contains 'google-site-verification'
+skywardspeech.com.au,SPF,DNS,DNS record contains 'v=spf1'
+sevecoitalia.com,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+sevecoitalia.com,IIS,Web servers,header: Server=Microsoft-IIS/8.0
+sevecoitalia.com,Microsoft ASP.NET,Web frameworks,"html: <input[^>]+name=""__VIEWSTATE | header: X-AspNet-Version=4.0.30319 | header: X-Powered-By=ASP.NET"
+sevecoitalia.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+sevecoitalia.com,Windows Server,Operating systems,implied by IIS
+sevecoitalia.com,SPF,DNS,DNS record contains 'v=spf1'
+nielsbirk.dk,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+nielsbirk.dk,HSTS,Security,header: Strict-Transport-Security
+nielsbirk.dk,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=300"
+nielsbirk.dk,Nginx,Web servers; Reverse proxies,header: Server=nginx
+nielsbirk.dk,SPF,DNS,DNS record contains 'v=spf1'
+phucankhanggroup.com,Nginx,Web servers; Reverse proxies,header: Server=nginx
+phucankhanggroup.com,SPF,DNS,DNS record contains 'v=spf1'
+roccofortehotels.cn,Akamai,CDN,header: X-Akamai-Transformed
+roccofortehotels.cn,Akamai mPulse,RUM,html: <script>[\s\S]*?go-mpulse\.net\/boomerang[\s\S]*?</script>
+roccofortehotels.cn,HSTS,Security,header: Strict-Transport-Security
+roccofortehotels.cn,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=93600"
+roccofortehotels.cn,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+roccofortehotels.cn,Boomerang,JavaScript libraries; RUM,implied by Akamai mPulse
+everhartsoutdoor.com,Nginx,Web servers; Reverse proxies,header: Server=nginx
+everhartsoutdoor.com,Microsoft 365,DNS,DNS record contains 'ms='
+everhartsoutdoor.com,SPF,DNS,DNS record contains 'v=spf1'
+europeaninns.com,Apache HTTP Server,Web servers,header: Server=Apache/2
+europeaninns.com,SPF,DNS,DNS record contains 'v=spf1'
+massageforworldpeace.com,Apache HTTP Server,Web servers,header: Server=Apache
+massageforworldpeace.com,MyWebsite,Page builders,meta: generator=IONOS MyWebsite
+massageforworldpeace.com,PHP,Programming languages,script: https://203.sb.mywebsite-editor.com/app/logstate-js.php?site
+massageforworldpeace.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+massageforworldpeace.com,Google Workspace,DNS,DNS record contains 'google.com'
+massageforworldpeace.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+massageforworldpeace.com,SPF,DNS,DNS record contains 'v=spf1'
+cultivateventures.co.nz,HSTS,Security,header: Strict-Transport-Security
+cultivateventures.co.nz,Squarespace,CMS,header: server=Squarespace
+cultivateventures.co.nz,Squarespace Commerce,Ecommerce,header: server=Squarespace
+cultivateventures.co.nz,Stimulus,JavaScript frameworks,html: <[^>]+data-controller
+cultivateventures.co.nz,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+cultivateventures.co.nz,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+amaronbattery.in,LiteSpeed,Web servers,header: Server=LiteSpeed | header: X-Turbo-Charged-By=LiteSpeed
+amaronbattery.in,LiteSpeed Cache,Caching; WordPress plugins,header: x-turbo-charged-by=LiteSpeed
+amaronbattery.in,Litespeed Cache,Caching; WordPress plugins,header: x-turbo-charged-by=LiteSpeed
+amaronbattery.in,PHP,Programming languages,header: X-Powered-By=PHP/7.2.34
+amaronbattery.in,SPF,DNS,DNS record contains 'v=spf1'
+radxmobile.com,Google Cloud CDN,CDN,header: Via=1.1 google
+radxmobile.com,HSTS,Security,header: Strict-Transport-Security
+radxmobile.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000"
+radxmobile.com,WebsiteBuilder,Page builders,meta: generator=Wix.com Website Builder
+radxmobile.com,Wix,CMS; Blogs,header: X-Wix-Request-Id | meta: generator=Wix.com Website Builder
+radxmobile.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+radxmobile.com,Google Cloud,IaaS,implied by Google Cloud CDN
+radxmobile.com,React,JavaScript frameworks,implied by Wix
+radxmobile.com,Google Workspace,DNS,DNS record contains 'google.com'
+radxmobile.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+radxmobile.com,SPF,DNS,DNS record contains 'v=spf1'
+2-com.net,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+2-com.net,Cloudflare Bot Management,Security,cookie: __cf_bm
+2-com.net,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+2-com.net,Microsoft ASP.NET,Web frameworks,header: X-Powered-By=ASP.NET
+2-com.net,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js
+2-com.net,Microsoft 365,DNS,DNS record contains 'ms='
+2-com.net,Mailgun,DNS,DNS record contains 'mailgun.org'
+2-com.net,SPF,DNS,DNS record contains 'v=spf1'
+3bsexcavating.com,WordPress,robots.txt,robots.txt contains 'wp-content'
+3bsexcavating.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+3bsexcavating.com,PHP,Programming languages,implied by WordPress
+3bsexcavating.com,MySQL,Databases,implied by WordPress
+3bsexcavating.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+weissbauchpapageien.de,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+weissbauchpapageien.de,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+weissbauchpapageien.de,PHP,Programming languages,url: https://p2-1.afp24.net/true1.php?id=weis44j4dh3o49xk&sv=1
+959marine.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+959marine.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+959marine.com,Google Workspace,DNS,DNS record contains 'google.com'
+hansis-knusperhendl-foodtruck.eatbu.com,Google Cloud CDN,CDN,header: Via=1.1 google
+hansis-knusperhendl-foodtruck.eatbu.com,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+hansis-knusperhendl-foodtruck.eatbu.com,HSTS,Security,header: Strict-Transport-Security
+hansis-knusperhendl-foodtruck.eatbu.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000,h3-29="":443""; ma=2"
+hansis-knusperhendl-foodtruck.eatbu.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+hansis-knusperhendl-foodtruck.eatbu.com,Google Cloud,IaaS,implied by Google Cloud CDN
+hansis-knusperhendl-foodtruck.eatbu.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+broganlmt.com,Google Cloud CDN,CDN,header: Via=1.1 google
+broganlmt.com,HSTS,Security,header: Strict-Transport-Security
+broganlmt.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000,h3-29="":443""; ma=2"
+broganlmt.com,WebsiteBuilder,Page builders,meta: generator=Wix.com Website Builder
+broganlmt.com,Wix,CMS; Blogs,header: X-Wix-Request-Id | meta: generator=Wix.com Website Builder
+broganlmt.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+broganlmt.com,Google Cloud,IaaS,implied by Google Cloud CDN
+broganlmt.com,React,JavaScript frameworks,implied by Wix
+broganlmt.com,Google Workspace,DNS,DNS record contains 'google.com'
+broganlmt.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+broganlmt.com,SPF,DNS,DNS record contains 'v=spf1'
+juanmunozhomesmart.com,HSTS,Security,header: Strict-Transport-Security
+buchhaltungsservice-koenig.de,Apache HTTP Server,Web servers,header: Server=Apache/2.4.66 (Unix)
+buchhaltungsservice-koenig.de,PHP,Programming languages,header: X-Powered-By=PHP/8.4.19
+buchhaltungsservice-koenig.de,UNIX,Operating systems,header: Server=Apache/2.4.66 (Unix)
+buchhaltungsservice-koenig.de,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://buchhaltungsservice-koenig.de/w | script: https://buchhaltungsservice-koenig.de/wp-content/dbdeb7fdb2f | meta: generator=WordPress 6.9.4"
+buchhaltungsservice-koenig.de,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+buchhaltungsservice-koenig.de,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+buchhaltungsservice-koenig.de,MySQL,Databases,implied by WordPress
+buchhaltungsservice-koenig.de,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+buchhaltungsservice-koenig.de,SPF,DNS,DNS record contains 'v=spf1'
+solvos.nl,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.5; features: e_font_icon_
+solvos.nl,HSTS,Security,header: Strict-Transport-Security
+solvos.nl,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+solvos.nl,Redis Object Cache,Caching,html: <!--\s+Performance optimized by Redis Object Cache
+solvos.nl,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.solvos.nl/wp-json/>; rel=""h | script: https://www.solvos.nl/wp-content/plugins/elementor/assets/li"
+solvos.nl,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+solvos.nl,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+solvos.nl,Redis,Databases,implied by Redis Object Cache
+solvos.nl,PHP,Programming languages,implied by WordPress
+solvos.nl,MySQL,Databases,implied by WordPress
+solvos.nl,Microsoft 365,DNS,DNS record contains 'ms='
+solvos.nl,SPF,DNS,DNS record contains 'v=spf1'
+261welfarefund.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+261welfarefund.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+261welfarefund.com,prettyPhoto,JavaScript libraries,"html: (?:<link [^>]*href=""[^""]*prettyPhoto(?:\.min)?\.css|<a [^>]*"
+261welfarefund.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: X-Pingback=https://www.261welfarefund.com/xmlrpc.ph | header: link=<https://www.261welfarefund.com/wp-json/ | script: https://www.261welfarefund.com/wp-content/themes/forwardtren"
+261welfarefund.com,WP Engine,PaaS; Hosting,header: X-Powered-By=WP Engine
+261welfarefund.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+261welfarefund.com,jQuery,JavaScript libraries,implied by prettyPhoto
+261welfarefund.com,PHP,Programming languages,implied by WordPress
+261welfarefund.com,MySQL,Databases,implied by WordPress
+261welfarefund.com,Microsoft 365,DNS,DNS record contains 'ms='
+261welfarefund.com,SPF,DNS,DNS record contains 'v=spf1'
+disinfestazioniepiscine.it,Engintron,Web server extensions,header: X-Server-Powered-By=Engintron
+disinfestazioniepiscine.it,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+disinfestazioniepiscine.it,Nginx,Web servers; Reverse proxies,header: Server=nginx
+disinfestazioniepiscine.it,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?onload=recaptchaCall
+disinfestazioniepiscine.it,Slider Revolution,Widgets; Photo galleries,meta: generator=Powered by Slider Revolution 5.2.4.1 - r
+disinfestazioniepiscine.it,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.disinfestazioniepiscine.it/ | script: https://www.disinfestazioniepiscine.it/wp-content/plugins/re"
+disinfestazioniepiscine.it,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+disinfestazioniepiscine.it,PHP,Programming languages,implied by WordPress
+disinfestazioniepiscine.it,MySQL,Databases,implied by WordPress
+disinfestazioniepiscine.it,SPF,DNS,DNS record contains 'v=spf1'
+lscms.org,Apache HTTP Server,Web servers,header: Server=Apache
+lscms.org,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+lscms.org,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.35.9; features: e_font_icon_
+lscms.org,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://lscms.org/wp-json/>; rel=""https | script: https://lscms.org/wp-content/plugins/burst-statistics/assets"
+lscms.org,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+lscms.org,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+lscms.org,PHP,Programming languages,implied by WordPress
+lscms.org,MySQL,Databases,implied by WordPress
+lscms.org,Google Workspace,DNS,DNS record contains 'google.com'
+lscms.org,SPF,DNS,DNS record contains 'v=spf1'
+3dwealthadvisory.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+3dwealthadvisory.com,Cloudflare Bot Management,Security,cookie: __cf_bm
+3dwealthadvisory.com,Divi,Page builders; WordPress themes; WordPress plugins,meta: generator=Divi v.4.27.6
+3dwealthadvisory.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+3dwealthadvisory.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://3dwealthadvisory.com/wp-json/>; | script: https://3dwealthadvisory.com/wp-content/plugins/coblocks/dis"
+3dwealthadvisory.com,PHP,Programming languages,implied by WordPress
+3dwealthadvisory.com,MySQL,Databases,implied by WordPress
+3dwealthadvisory.com,Microsoft 365,DNS,DNS record contains 'ms='
+3dwealthadvisory.com,SPF,DNS,DNS record contains 'v=spf1'
+nevsproductions.com,HSTS,Security,header: Strict-Transport-Security
+nevsproductions.com,Nginx,Web servers; Reverse proxies,header: Server=nginx
+nevsproductions.com,Odoo,CMS,meta: generator=Odoo
+nevsproductions.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+nevsproductions.com,Python,Programming languages,implied by Odoo
+nevsproductions.com,PostgreSQL,Databases,implied by Odoo
+nevsproductions.com,Less,Miscellaneous,implied by Odoo
+kande-hoikuen.ed.jp,Nginx,Web servers; Reverse proxies,header: Server=nginx
+kande-hoikuen.ed.jp,SPF,DNS,DNS record contains 'v=spf1'
+orifoodsco.com,Adobe Fonts,Font scripts,"html: <link [^>]*href=""[^""]+use\.typekit\.(?:net|com)"
+orifoodsco.com,HSTS,Security,header: Strict-Transport-Security
+orifoodsco.com,Squarespace,CMS,header: server=Squarespace
+orifoodsco.com,Squarespace Commerce,Ecommerce,header: server=Squarespace
+orifoodsco.com,Stimulus,JavaScript frameworks,html: <[^>]+data-controller
+orifoodsco.com,Typekit,Font scripts,"html: <link [^>]*href=""[^""]+use\.typekit\.(?:net|com)"
+orifoodsco.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+orifoodsco.com,Google Workspace,DNS,DNS record contains 'google.com'
+orifoodsco.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+orifoodsco.com,SPF,DNS,DNS record contains 'v=spf1'
+deerfieldbeachautomall.com,HSTS,Security,header: Strict-Transport-Security
+insieme.stanford.edu,Acquia Cloud Platform,PaaS,header: X-AH-Environment=01live
+insieme.stanford.edu,Drupal,CMS,header: X-Drupal-Cache | header: X-Generator=Drupal 11 (https://www.drupal.org) | meta: generator=Drupal 11 (https://www.drupal.org)
+insieme.stanford.edu,HSTS,Security,header: Strict-Transport-Security
+insieme.stanford.edu,Admin Panel,robots.txt,robots.txt contains 'Disallow: /admin'
+insieme.stanford.edu,Amazon Web Services,PaaS,implied by Acquia Cloud Platform
+insieme.stanford.edu,PHP,Programming languages,implied by Drupal
+layer7innovations.ca,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+layer7innovations.ca,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+layer7innovations.ca,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+layer7innovations.ca,YouTube,Video players,html: <(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\.com/(?:v|
+layer7innovations.ca,Google Workspace,DNS,DNS record contains 'google.com'
+layer7innovations.ca,SPF,DNS,DNS record contains 'v=spf1'
+makpharma-eg.com,GoDaddy Website Builder,CMS,cookie: dps_site_id | meta: generator=Starfield Technologies; Go Daddy Website
+makpharma-eg.com,HSTS,Security,header: Strict-Transport-Security
+makpharma-eg.com,GoDaddy Email,DNS,DNS record contains 'secureserver.net'
+ejc-courtage-assurances.fr,PHP,Programming languages,header: X-Powered-By=PHP/8.1
+ejc-courtage-assurances.fr,OVH,DNS,DNS record contains 'ovh.net'
+ferrateoxidant.com,Apache HTTP Server,Web servers,header: Server=Apache
+ferrateoxidant.com,Elementor,Page builders; WordPress plugins,meta: generator=Elementor 3.22.3; features: e_optimized_
+ferrateoxidant.com,Google PageSpeed,Caching; Web server extensions; Performance,header: X-Mod-Pagespeed=1.13.35.2-0
+ferrateoxidant.com,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://ferrateoxidant.com/wp-json/>; r | script: https://ferrateoxidant.com/wp-content/plugins/contact-form-7"
+ferrateoxidant.com,PHP,Programming languages,implied by WordPress
+ferrateoxidant.com,MySQL,Databases,implied by WordPress
+oakwell.vet,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+oakwell.vet,Nginx,Web servers; Reverse proxies,header: Server=nginx-rc
+oakwell.vet,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://oakwell.vet/wp-json/>; rel=""htt | script: https://oakwell.vet/wp-content/plugins/widget-google-reviews | meta: generator=WordPress 6.9.4"
+oakwell.vet,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+oakwell.vet,YouTube,Video players,html: <(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\.com/(?:v|
+oakwell.vet,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+oakwell.vet,PHP,Programming languages,implied by WordPress
+oakwell.vet,MySQL,Databases,implied by WordPress
+oakwell.vet,Microsoft 365,DNS,DNS record contains 'ms='
+oakwell.vet,Google Search Console,DNS,DNS record contains 'google-site-verification'
+oakwell.vet,SPF,DNS,DNS record contains 'v=spf1'
+mysterion.hr,Bootstrap,UI frameworks,"html: <link[^>]* href=[^>]*?bootstrap(?:[^>]*?([0-9a-fA-F]{7,40}|["
+mysterion.hr,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+mysterion.hr,Engintron,Web server extensions,header: X-Server-Powered-By=Engintron
+mysterion.hr,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+mysterion.hr,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?render=6LfMtIsUAAAAA
+mysterion.hr,Slider Revolution,Widgets; Photo galleries,meta: generator=Powered by Slider Revolution 5.4.6.3.1 -
+mysterion.hr,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | script: https://mysterion.hr/wp-content/plugins/revslider/public/ass"
+mysterion.hr,Yoast SEO,SEO; WordPress plugins,html: <!-- This site is optimized with the Yoast (?:WordPress )?SE
+mysterion.hr,PHP,Programming languages,implied by WordPress
+mysterion.hr,MySQL,Databases,implied by WordPress
+mysterion.hr,SPF,DNS,DNS record contains 'v=spf1'
+howellmotors.com,HSTS,Security,header: Strict-Transport-Security
+howellmotors.com,Microsoft 365,DNS,DNS record contains 'ms='
+howellmotors.com,SPF,DNS,DNS record contains 'v=spf1'
+lorenz-baumarkt.de,Apache HTTP Server,Web servers,header: Server=Apache
+lorenz-baumarkt.de,Stimulus,JavaScript frameworks,html: <[^>]+data-controller
+lorenz-baumarkt.de,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+lorenz-baumarkt.de,E-commerce,robots.txt,robots.txt contains '/checkout'
+lorenz-baumarkt.de,Microsoft 365,DNS,DNS record contains 'ms='
+lorenz-baumarkt.de,SPF,DNS,DNS record contains 'v=spf1'
+eclairage-solaire-occitanie.com,Google Cloud CDN,CDN,header: Via=1.1 google
+eclairage-solaire-occitanie.com,HSTS,Security,header: Strict-Transport-Security
+eclairage-solaire-occitanie.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000,h3-29="":443""; ma=2"
+eclairage-solaire-occitanie.com,WebsiteBuilder,Page builders,meta: generator=Wix.com Website Builder
+eclairage-solaire-occitanie.com,Wix,CMS; Blogs,header: X-Wix-Request-Id | meta: generator=Wix.com Website Builder
+eclairage-solaire-occitanie.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+eclairage-solaire-occitanie.com,Google Cloud,IaaS,implied by Google Cloud CDN
+eclairage-solaire-occitanie.com,React,JavaScript frameworks,implied by Wix
+cmc01village.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+cmc01village.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+cmc01village.com,SPF,DNS,DNS record contains 'v=spf1'
+maiquotes.net,Apache HTTP Server,Web servers,header: Server=Apache/2.4.37
+maiquotes.net,HSTS,Security,header: Strict-Transport-Security
+maiquotes.net,PHP,Programming languages,header: X-Powered-By=PHP/8.2.30 | url: https://portal.mymarylandauto.com/site/wp-login.php?redirect
+maiquotes.net,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/"
+maiquotes.net,MySQL,Databases,implied by WordPress
+cmresolutions.com,Apache HTTP Server,Web servers,header: Server=Apache
+cmresolutions.com,Microsoft Word,Editors,meta: ProgId=Word.Document | meta: generator=Microsoft Word 10
+cmresolutions.com,SPF,DNS,DNS record contains 'v=spf1'
+wglchurch.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+nwmotorinn.com,AMP,JavaScript frameworks,"html: <link rel=""amphtml"""
+nwmotorinn.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+nwmotorinn.com,HSTS,Security,header: Strict-Transport-Security
+nwmotorinn.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+nwmotorinn.com,Netlify,PaaS; CDN,header: X-NF-Request-ID
+nwmotorinn.com,React,JavaScript frameworks,html: <[^>]+data-react
+nwmotorinn.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+dorpsbelangen.nu,Apache HTTP Server,Web servers,header: Server=Apache
+dorpsbelangen.nu,PHP,Programming languages,header: X-Powered-By=PHP/8.4.19
+dorpsbelangen.nu,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?render=6LeE4_wcAAAAA
+dorpsbelangen.nu,Varnish,Caching,header: Via=1.1 webcache1 (Varnish/trunk) | header: X-Varnish
+dorpsbelangen.nu,WordPress,CMS; Blogs,"html: <link rel=[""']stylesheet[""'] [^>]+/wp-(?:content|includes)/ | header: link=<https://www.dorpsbelangen.nu/wp-json/>; | script: https://www.dorpsbelangen.nu/wp-content/plugins/essential-wi | meta: generator=WordPress 6.9.4"
+dorpsbelangen.nu,WordPress Block Editor,Page builders,"html: <div[^>]+class=[""']wp-block-*"
+dorpsbelangen.nu,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+dorpsbelangen.nu,MySQL,Databases,implied by WordPress
+evelynanders.com,Apache HTTP Server,Web servers,header: Server=Apache/2.4.66 (Unix)
+evelynanders.com,PHP,Programming languages,header: X-Powered-By=PHP/7.4.33
+evelynanders.com,reCAPTCHA,Security,script: https://www.google.com/recaptcha/api.js?render=6LeFwOkqAAAAA
+evelynanders.com,UNIX,Operating systems,header: Server=Apache/2.4.66 (Unix)
+evelynanders.com,Varnish,Caching,header: Via=1.1 ip-172-31-105-253 (Varnish/7.5) | header: X-Varnish
+evelynanders.com,Admin Panel,robots.txt,robots.txt contains 'Disallow: /admin'
+evelynanders.com,Google Workspace,DNS,DNS record contains 'google.com'
+domekvefaru.com,WebNode,CMS; Page builders,meta: generator=Webnode 2
+domekvefaru.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+domekvefaru.com,SPF,DNS,DNS record contains 'v=spf1'
+sdmdjentertainment.com,GoDaddy Website Builder,CMS,cookie: dps_site_id | meta: generator=Starfield Technologies; Go Daddy Website
+sdmdjentertainment.com,HSTS,Security,header: Strict-Transport-Security
+ideenhunger.com,Cloudflare,CDN,header: Server=cloudflare | header: cf-cache-status | header: cf-ray
+ideenhunger.com,Google Tag Manager,Tag managers,html: googletagmanager\.com/ns\.html[^>]+></iframe> | html: <!-- (?:End )?Google Tag Manager -->
+ideenhunger.com,HSTS,Security,header: Strict-Transport-Security
+ideenhunger.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=86400"
+ideenhunger.com,YouTube,Video players,html: <(?:param|embed|iframe)[^>]+youtube(?:-nocookie)?\.com/(?:v|
+ideenhunger.com,Facebook Domain Verification,DNS,DNS record contains 'facebook-domain-verification'
+ideenhunger.com,SPF,DNS,DNS record contains 'v=spf1'
+ideenhunger.com,Microsoft 365,DNS,DNS record contains 'ms='
+jenniferbacksteininteriors.com,HSTS,Security,header: Strict-Transport-Security
+jenniferbacksteininteriors.com,Squarespace,CMS,header: server=Squarespace
+jenniferbacksteininteriors.com,Squarespace Commerce,Ecommerce,header: server=Squarespace
+jenniferbacksteininteriors.com,Stimulus,JavaScript frameworks,html: <[^>]+data-controller
+jenniferbacksteininteriors.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+jenniferbacksteininteriors.com,Microsoft 365,DNS,DNS record contains 'protection.outlook'
+jenniferbacksteininteriors.com,GoDaddy Email,DNS,DNS record contains 'secureserver.net'
+jenniferbacksteininteriors.com,SPF,DNS,DNS record contains 'v=spf1'
+elcolegiocongresosyrestaurante.com,Nginx,Web servers; Reverse proxies,header: Server=nginx
+elcolegiocongresosyrestaurante.com,SPF,DNS,DNS record contains 'v=spf1'
+northshoremacnut.com,Google Cloud CDN,CDN,header: Via=1.1 google
+northshoremacnut.com,HSTS,Security,header: Strict-Transport-Security
+northshoremacnut.com,HTTP/3,Miscellaneous,"header: Alt-Svc=h3="":443""; ma=2592000,h3-29="":443""; ma=2"
+northshoremacnut.com,WebsiteBuilder,Page builders,meta: generator=Wix.com Website Builder
+northshoremacnut.com,Wix,CMS; Blogs,header: X-Wix-Request-Id | meta: generator=Wix.com Website Builder
+northshoremacnut.com,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+northshoremacnut.com,Google Cloud,IaaS,implied by Google Cloud CDN
+northshoremacnut.com,React,JavaScript frameworks,implied by Wix
+northshoremacnut.com,Google Workspace,DNS,DNS record contains 'google.com'
+northshoremacnut.com,Google Search Console,DNS,DNS record contains 'google-site-verification'
+northshoremacnut.com,SPF,DNS,DNS record contains 'v=spf1'
+northshoremacnut.com,Apple,DNS,DNS record contains 'apple-domain-verification'
+powercleaning.services,Nginx,Web servers; Reverse proxies,header: Server=nginx
+powercleaning.services,SPF,DNS,DNS record contains 'v=spf1'
+stoperbis.pl,Apache HTTP Server,Web servers,header: Server=Apache/2
+stoperbis.pl,PHP,Programming languages,script: javascript/skrypty.php
+stoperbis.pl,ShopGold,Ecommerce,cookie: eGold
+stoperbis.pl,Sitemap,robots.txt,robots.txt contains 'Sitemap: '
+stoperbis.pl,SPF,DNS,DNS record contains 'v=spf1'
+stoperbis.pl,Microsoft 365,DNS,DNS record contains 'ms='
